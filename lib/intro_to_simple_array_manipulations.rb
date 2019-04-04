@@ -1,5 +1,5 @@
 def using_push(array, string)
-array.push(string)
+  array.push(string)
 end
 
 def using_unshift(array, string)
@@ -7,11 +7,11 @@ def using_unshift(array, string)
 end
 
 def using_pop(array)
-  pop.array
+  array.pop
 end
 
 def pop_with_args(array)
-  pop.array(2)
+  array.pop(2)
 end
 
 def using_shift(array)
